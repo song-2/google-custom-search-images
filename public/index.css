@@ -1,0 +1,25 @@
+
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Gallery Styles*/
+.gallery {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left; 
+  cursor: point;
+  position: relative;
+}
+
+.gallery-img {
+  width: 220px;
+  height: 220px;
+  border: 4px solid #000;
+  border-radius: 4px;
+  object-fit: cover;
+  position: absolute;
+}
